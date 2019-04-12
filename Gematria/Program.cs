@@ -29,12 +29,10 @@ namespace Gematria
         private  int letterValue(string v)
         {
             int x = 0;
-            for(int a = 0; a < letters.Length; a++)
+            while (letters[x] != v)
             {
-                if (v.Equals(letters[a]))
-                {
-                    x = x + a;
-                }
+                if (letters[x++] == v)
+                    return x;
             }
             return x;
         }

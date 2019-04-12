@@ -10,6 +10,7 @@ namespace Gematria
     {
         static void Main(string[] args)
         {
+            //writing the gemetria
         }
     }
 }
